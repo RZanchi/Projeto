@@ -1,0 +1,59 @@
+Adicionado a pasta imagens ao projeto, temos as seguintes mudanças feitas no HTML:
+
+            <div class="apresentacao__links">
+                <h2 class="apresentacao__links__subtitulo">Acesse</h2>
+                <a class="apresentacao__links__link" href="https://github.com">
+                    <img src="./imagens/github.png">
+                    Github
+                </a>
+                <a class="apresentacao__links__link" href="https://www.linkedin.com">
+                    <img src="./imagens/linkedin.png">
+                    Linkedin
+                </a>	
+            </div>
+            Logo abaixo de </section> :
+
+             <img src="./imagens/imagem.png" alt="Simbolo HTML5">
+
+            Atentar ao caminho da pasta imagens, que é ./imagens/nome_da_imagem.png , caso não seja digitado corretamente,
+            não buscará a imagem.
+
+
+Mudunças para fazer aos poucos no CSS, para tentar entender o que é alterado a cada comando adicionado.
+Focaremos nas classes .apresentacao__links, .apresentacao__links__subtitulo e .apresentacao__links__link
+
+Na classe .apresentacao__links e .apresentacao__links__subtitulo, faremos as seguintes mudanças:
+
+.apresentacao__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+.apresentacao__links__subtitulo{
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+O flex-direction: column, muda o alinhamento dos botões de linha (padrão do flexbox) para coluna.
+
+.apresentacao__links__link{
+    /* background-color: #22D4FD; */
+    border: 2px solid #22D4FD;
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #F6F6F6;
+    font-family: 'Montserrat', sans-serif;
+}
+
+O background-color não é mais necessário para o desenvolvimento do botão, por isso está comentado.
+
+
+
