@@ -1,0 +1,32 @@
+Ainda adotando medidas relativas, adotem o porcentagem (%), ela é importante para diferente tamanhos tela manter a proporção do projeto.
+Por exemplo, para a imagem.png no index.html e no info.html, crie a classe class="apresentacao__imagem" no 
+<img src="./imagens/imagem.png" alt="Simbolo HTML5">.
+
+No style.css faça
+.apresentacao__imagem {
+    width: 50%;
+} 
+
+Note que a largura da imagem é responsiva, ocupando 50% idenpendente do tamanho da tela, mas os outros componentes não fazem o mesmo.
+Produza alterações necessárias usando a porcentagem para manter a proporção do projeto, idenpendente da tela utilizada.
+
+  Ao clicar com botão direito na página do projeto, podemos abrir a aba do Inspecionar e clicar no nosso atalho para ajuste de tela podemos
+verificar diferentes tamanhos de tela. Note que conforme a tela diminui a imagem continua a lado do texto, o que não é o ideal para mobile.
+
+  O ideal serie definirmos configurações de classes para diferentes tipos de tamanhos de tela. Isso é possível com o Media Queries.
+  https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_media_queries/Using_media_queries
+
+  Por exemplo, podemos utuliza o Media Queries da seguinte forma para a classe .apresentação no CSS:
+
+  @media (max-width: 1200px) {
+    .apresentacao{
+        flex-direction: column-reverse;
+    }
+  }
+
+  Onde o @media (max-width: 1200px) define que na classe apresentação para telas com largura de até 1200 px, 
+  aplicará um flex-direction: column-reverse; 
+
+  Tente agora melhorar as classes .cabecalho e .cabecalho__menu até um max-width: 1200px.
+
+
