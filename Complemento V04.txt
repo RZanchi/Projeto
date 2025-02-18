@@ -1,0 +1,36 @@
+Mudanças para fazer no HTML:
+
+
+	<header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link">Home</a>
+            <a class="cabecalho__menu__link">HTML5</a>
+        </nav>
+    </header>
+	
+	<footer class="rodape">
+        <p>Desenvolvido por Aluno:    do 3º .</p>
+    </footer>
+
+Criar classes para o rodapé e o cabeçalho, note que termemos mais uma página HTML.	
+
+Mudunças para fazer aos poucos no CSS, para tentar entender o que é alterado a cada comando adicionado.
+
+.apresentacao__links__link:hover{
+    background-color: #272727;
+}
+
+O hover está sendo utilizado no .apresentacao__links__link:hover para mudar a cor do background quando  o cursor passar por cima do botão.
+https://www.w3schools.com/cssref/sel_hover.php
+
+.rodape{
+    color: ;
+    background-color: ;
+    padding: ;
+    text-align: ;
+    font-family: ;
+    font-size: ;
+    font-weight: ;
+}
+
+Altere os valores dos elementos da classe .rodape
