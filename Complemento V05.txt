@@ -1,0 +1,33 @@
+Foi criada a página info.html
+Foi adicionado no <head> do index.html e info.html, devido a criação da pasta styles:
+<link rel="stylesheet" href="./styles/style.css">
+
+no lugar de <link rel="stylesheet" href="style.css"> , note que foi adicionado o caminho ./styles/ no href.
+
+Para navegar entre as páginas é necessário adicionar href na <nav> do <header>
+
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="info.html">HTML5</a>
+        </nav>
+    </header>
+
+Modificar os dois parágrafos do <main> no info.html
+	
+Estilize as seguintes classes do CSS:
+
+.cabecalho{
+    padding: ;
+}
+.cabecalho__menu{
+    display: flex;
+    gap:;
+}
+.cabecalho__menu__link{
+    font-family: ;
+    font-size: ;
+    font-weight: ;
+    color: ;
+    text-decoration: none;
+}
