@@ -1,0 +1,30 @@
+
+
+Mudunças para fazer aos poucos no CSS, para tentar entender o que é alterado a cada comando adicionado.
+Focaremos nas classes .apresentacao__links e .apresentacao__links__link
+
+Na classe .apresentacao__links, faremos as seguintes mudanças
+
+.apresentacao__links{
+    display: flex;
+    justify-content: space-between;
+}
+
+Resulta em um alinhamento dos links através do display: flex, e um espaçamento entre eles através do justify-content: space-between.
+
+.apresentacao__links__link{
+    background-color:;
+    width: ;
+    text-align: ;
+    border-radius: ;
+    font-size: ;
+    font-weight:;
+    padding: ;
+    text-decoration: none;
+    color: ;
+    font-family: ;
+}
+
+Defina os valores para as propriedades acima, atente principalmente background-color, padding, text-align. 
+text-decoration: none remove decoração de texto padrão, como o sublinhado do link.
+
